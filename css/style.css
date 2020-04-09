@@ -353,9 +353,6 @@ h3, .h3 {
   line-height: 20px;
 }
 
-.header_area.navbar_fixed .main_menu .navbar .nav .nav-item:hover .nav-link, .header_area.navbar_fixed .main_menu .navbar .nav .nav-item.active .nav-link {
-  color: #fff;
-}
 
 @media (min-width: 992px) {
   .header_area.white_menu .navbar .navbar-brand img {
@@ -873,7 +870,6 @@ h3, .h3 {
   left: 0;
   width: 595px;
   height: 660px;
-  background: url(../img/home/bg-shape-left.png) left center no-repeat;
   background-size: cover;
   z-index: -1;
 }
@@ -892,7 +888,6 @@ h3, .h3 {
   right: 0;
   width: 755px;
   height: 860px;
-  background: url(../img/home/bg-shape-right.png) left center no-repeat;
   background-size: cover;
   z-index: -1;
 }
@@ -956,7 +951,6 @@ h3, .h3 {
 /* section intro end
 	============================================================================================ */
 .service-card {
-  background: #f8f8ff;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -1018,6 +1012,18 @@ h3, .h3 {
   .about-img {
     position: relative;
     left: -100px;
+  }
+}
+@media (min-width: 1200px) {
+  .chat {
+    position: relative;
+    left: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  .dash {
+    position: relative;
+    left: -50px;
   }
 }
 
