@@ -103,7 +103,7 @@ h3, .h3 {
 
 @media (min-width: 992px) {
   .section-margin {
-    margin: 130px 0;
+    margin: 100px 0;
   }
 }
 
@@ -123,23 +123,23 @@ h3, .h3 {
 
 @media (min-width: 992px) {
   .section-padding {
-    padding: 130px 0;
+    padding: 80px 0;
   }
 }
 
 .generic-margin {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 @media (min-width: 992px) {
   .generic-margin {
-    margin-top: 180px;
+    margin-top: 100px;
   }
 }
 
 @media (min-width: 1200px) {
   .generic-margin {
-    margin-top: 250px;
+    margin-top: 70px;
   }
 }
 
