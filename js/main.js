@@ -48,8 +48,9 @@ $(function() {
             nav: false,
             dots: true,
             responsiveClass: true,
-            slideSpeed: 300,
+            slideSpeed: 100,
             paginationSpeed: 500,
+            autoplay:true,
             responsive: {
                 0: {
                     items: 1
