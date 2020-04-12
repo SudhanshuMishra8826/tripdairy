@@ -23,6 +23,12 @@ body {
   line-height: 1.667;
 }
 
+.inp:hover, .inp:focus{
+  background-color: lightblue;
+  border: 3px solid lightblue;
+  border-radius: 25px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -1421,9 +1427,10 @@ h3, .h3 {
 }
 
 .search-wrapper {
-  background: #f8f8ff;
+  background: #d7d7db;
   padding: 30px 10px;
   text-align: center;
+  border-radius: 25px;
 }
 
 @media (min-width: 600px) {
@@ -1569,9 +1576,11 @@ h3, .h3 {
   background: transparent;
 }
 
-.form-contact .form-control:focus {
+.form-contact .form-control:focus, .form-contact .form-control:hover {
   outline: 0;
   box-shadow: none;
+  background-color: lightblue;
+
 }
 
 .form-contact .form-control::placeholder {
