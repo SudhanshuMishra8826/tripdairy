@@ -25,9 +25,18 @@ $(function() {
   skrollr.init({
     forceHeight: false
   });
-
-
-
+  var text = ["Hallo","One stop AI powered communication platform for hospitality industry"];
+  var counter = 0;
+  var elem = $("#postertext");
+  setInterval(change, 3000);
+  function change() {
+      elem.fadeOut(function(){
+          elem.html(text[counter]);
+          counter++;
+          if(counter >= text.length) { counter = 0; }
+          elem.fadeIn();
+      });
+  }
   //------- mailchimp --------//  
 	function mailChimp() {
 		$('#mc_embed_signup').find('form').ajaxChimp();
@@ -65,4 +74,14 @@ $(function() {
   
 });
 
-
+$('.count').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 8000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});

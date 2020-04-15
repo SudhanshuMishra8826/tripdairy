@@ -249,6 +249,8 @@ h3, .h3 {
 .metric{
   margin:20px;
   transition: all .2s ease-in-out; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 .metric:hover { 
   transform: scale(1.1); 
@@ -1427,7 +1429,8 @@ h3, .h3 {
 }
 
 .search-wrapper {
-  background: #d7d7db;
+  background-color: #abe9cd;
+  background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
   padding: 30px 10px;
   text-align: center;
   border-radius: 25px;
@@ -2960,6 +2963,49 @@ button.button {
 
 .footer-text a, .footer-text i {
   color: #6059f6;
+}
+
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
 }
 
 /* footer style end
