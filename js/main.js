@@ -25,7 +25,7 @@ $(function() {
   skrollr.init({
     forceHeight: false
   });
-  var text = ["Hallo","One stop AI powered communication platform for hospitality industry"];
+  var text = ["Grow your Hotel Sales by increasing direct bookings with Tripdairy’s Hotel Chatbot ","One stop AI powered communication platform for hospitality industry"];
   var counter = 0;
   var elem = $("#postertext");
   setInterval(change, 3000);
