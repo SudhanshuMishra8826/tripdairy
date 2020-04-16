@@ -21,7 +21,7 @@
 
 </head>
 <body class="bg-shape">
-
+<div id="skrollr-body">
   <!--================ Header Menu Area start =================-->
   <header class="header_area">
     <div class="main_menu">
@@ -359,8 +359,6 @@
         <h2>Customer Success</h2>
         <p></p>
       </div>
-
-
       <div class="owl-carousel owl-theme testimonial pb-xl-5">
         <div class="testimonial__item">
           <div class="row">
@@ -459,10 +457,14 @@
         <h2>Media Coverage</h2>
         <br>
         <div class="container">
-          <section class="customer-logos2 slider">
+          <div class="row">
+          <section class="col-lg-6 mb-4" >
             <div class="slide"><img style="height: 100px;  width: 200px; margin:20px; display: block; margin-left: auto; margin-right: auto;" src="img/ys.png"></div>
+          </section>
+          <section class="col-lg-6 mb-4">
             <div class="slide"><img style="height: 50px; width: 200px; margin:20px; display: block; margin-left: auto; margin-right: auto;" src="img/eco.png"></div>
           </section>
+        </div>
         </div>
       </div>
     </div>
@@ -542,9 +544,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
   <script src="vendors/nice-select/jquery.nice-select.min.js"></script>
   <script src="js/jquery.ajaxchimp.min.js"></script>
   <script src="js/mail-script.js"></script>
-  <!----<script src="js/skrollr.min.js"></script>--->
+  <script src="js/skrollr.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
   <script src="js/main.js"></script>
   <script src="js/carousel.js"></script>
+  </div>
 </body>
 </html>
