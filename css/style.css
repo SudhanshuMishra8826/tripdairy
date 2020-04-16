@@ -1508,11 +1508,13 @@ h3, .h3 {
 
 .search-content h2 {
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 @media (min-width: 768px) {
   .search-content h2 {
     margin-bottom: 20px;
+    margin-top: 10px;
   }
 }
 
