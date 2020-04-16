@@ -25,7 +25,7 @@ $(function() {
   skrollr.init({
     forceHeight: false
   });
-  var text = ["Perfect solution to manage all conversations between your customers and AI Friend","One stop AI powered communication platform for hospitality industry"];
+  var text = ["Perfect solution to manage all conversations between your customers and AI","One stop AI powered communication platform for hospitality industry"];
   var counter = 0;
   var elem = $("#postertext");
   setInterval(change, 5000);
