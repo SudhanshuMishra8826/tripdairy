@@ -221,12 +221,12 @@ h3, .h3 {
 }
 
 .section-padding {
-  padding: 65px 0;
+  padding: 60px 0;
 }
 
 @media (min-width: 992px) {
   .section-padding {
-    padding: 80px 0;
+    padding: 60px 0;
   }
 }
 
@@ -2992,7 +2992,7 @@ button.button {
 
 .price li {
   border-bottom: 1px solid #eee;
-  padding: 20px;
+  padding: 8px;
   text-align: center;
 }
 
